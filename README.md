@@ -1,1 +1,1 @@
-# real-time-crypto-price
+To setup and run the application, follow these steps:\n1. Install dependencies: pip install -r requirements.txt\n2. Create a .env file with the CRYPTO_API_URL variable\n3. Run the FastAPI backend: uvicorn main:app --host 0.0.0.0 --port 8000\n4. Run the React Native frontend: npx react-native run-ios\n\nExamples:\n- To test the websocket endpoint, use a tool like wscat: wscat -c ws://localhost:8000/ws
